@@ -115,9 +115,12 @@ int main()
 	char cas;
 	numi ans;
 	cout << "输入格式“第一个操作数 （+，-，*，/） 第二个操作数”(注意中间的空格)" << endl;
+	cout << "第一个数：" << endl;
 	cin >> num1.num;
+	cout << "操作符：" << endl;
 	cin >> cas;
 	numi num2;
+	cout << "第二个数：" << endl;
 	cin >> num2.num;
 	ans=caoZuo(cas, inputS(num1), inputS(num2));
 	cout << "数值" << "	" << "进制" << endl;
